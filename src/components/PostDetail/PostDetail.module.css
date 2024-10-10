@@ -2,8 +2,8 @@
     margin-bottom: 3em;
 }
 .post_detail img{
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 60vw;
+    max-height: 50vh;
 }
 .post_detail h2{
     margin-bottom: .4em;
@@ -21,4 +21,11 @@
     color: #444;
     font-size: .8em;
     margin-bottom: 1em;
+}
+
+@media(width <= 500px){
+    .post_detail img{
+        max-width: 100%;
+        height: auto;
+    }
 }

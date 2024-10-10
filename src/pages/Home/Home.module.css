@@ -30,3 +30,9 @@
 .no_posts a{
     padding: 10px 25px;
 }
+
+@media(width <= 500px){
+    .search_form{
+        width: 100%;
+    }
+}
