@@ -1,0 +1,17 @@
+.post_container{
+    text-align: center;
+}
+.post_container > p{
+    margin: 1em 0;
+}
+.post_container img{
+    max-height: 50vh;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.tags span{
+    font-weight: bold;
+}
